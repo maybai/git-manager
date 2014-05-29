@@ -31,3 +31,7 @@ gitk
 
 test 2, modify the same file in local1 and local2. all push to remote server
 
+***************************
+changes in local1
+***************************
+//
