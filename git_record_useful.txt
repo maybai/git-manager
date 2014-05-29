@@ -41,6 +41,9 @@ or
 git pull origin master
 //fix the conflict
 git commit -a -m "loacal1-branch1"
+//test commit several times in a branch and merge it
+--------commit 1 finished-----
 git push origin local1-branch1:master
+
 ***************************
 //
