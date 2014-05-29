@@ -1,0 +1,20 @@
+mkdir git_local2
+cd git_local2
+git init
+echo "new file" >> local2.txt
+git add *
+git commit -a -m "test"
+//add remote git (server)
+git remote add origin ../git_remote
+//pull source files
+git pull origin master
+//push local changes to remote
+git push origin master:master
+//check remote informations
+git remote show
+//show the detail remote infromiton, such as fetch url, pull url
+git remote show origin //
+//till now push local1 changes to remote  success!
+//pull changes from remote to local2      success!
+//push changes of local2 (the changes commited before local2 pull changes from remote)  success!
+//
