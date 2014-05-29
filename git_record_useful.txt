@@ -17,4 +17,7 @@ git remote show origin //
 //till now push local1 changes to remote  success!
 //pull changes from remote to local2      success!
 //push changes of local2 (the changes commited before local2 pull changes from remote)  success!
+***************************
+changes in local1
+***************************
 //
