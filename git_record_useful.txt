@@ -43,6 +43,7 @@ git pull origin master
 git commit -a -m "loacal1-branch1"
 //test commit several times in a branch and merge it
 --------commit 1 finished-----
+--------commit 2 finished-----
 git push origin local1-branch1:master
 
 ***************************
