@@ -33,5 +33,22 @@ test 2, modify the same file in local1 and local2. all push to remote server
 
 ***************************
 changes in local1
+//if the same file is modified both in local1 and local2 and local2 push the changes. there may be conflict while local1 try to push its changes//
+//need update local1 with remote by fetch/pull first
+git fetch
+git merge FETCH_HEAD
+or
+git pull origin master
+//fix the conflict
+git commit -a -m "loacal1-branch1"
+//test commit several times in a branch and merge it
+--------commit 1 finished-----
+--------commit 2 finished-----
+git push origin local1-branch1:master
+---------git rebase------------
+//in one branch commited several times. all the commit will be tracked. generally all the changes should be rebase to 1 commit then push to server
+//for example: local1_branch
+//commit 3 times
+git rebase -i HEAD~3
 ***************************
 //
