@@ -17,4 +17,17 @@ git remote show origin //
 //till now push local1 changes to remote  success!
 //pull changes from remote to local2      success!
 //push changes of local2 (the changes commited before local2 pull changes from remote)  success!
-//
+//under git_local2 sumbit new chnges on local2 to remote and local1 fetch it from remote
+cp ../../file.txt ./
+mv file.txt git_record_useful.txt
+git checkout -b local2_branch1
+git add *
+git commit -a -m "tt"
+git push origin local2_branch1:master
+under git_local1 
+git fetch
+gitk
+// the changes was fetched to local1 success in graphic
+
+test 2, modify the same file in local1 and local2. all push to remote server
+
