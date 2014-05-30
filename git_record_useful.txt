@@ -65,7 +65,9 @@ git_clone/git_remote
 do some changes and submite the changes
 git push origin clone_branch1:master
 seems git_clone/git_remote is synchronized with git_remote. the only differnce is that sources code files are shown in git_clone/git_remote but only .git in git_remote
-need to take time to understand more????????????????????
+need to take time to understand more  success!!! 
+I just work on ./git_clone/git_remote. but I think I take actions in ./git_remote
+HaHa, stupid mistake!!
 _________________________________
 ******************
 test add tags
