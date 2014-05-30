@@ -63,6 +63,8 @@ git clone ../git_remote
 under the folder git_clone created git_remote automatically
 git_clone/git_remote
 do some changes and submite the changes
-git push origin clone_branch1:master       success!
+git push origin clone_branch1:master
+seems git_clone/git_remote is synchronized with git_remote. the only differnce is that sources code files are shown in git_clone/git_remote but only .git in git_remote
+need to take time to understand more????????????????????
 _________________________________
 //
