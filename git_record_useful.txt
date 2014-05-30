@@ -67,4 +67,14 @@ git push origin clone_branch1:master
 seems git_clone/git_remote is synchronized with git_remote. the only differnce is that sources code files are shown in git_clone/git_remote but only .git in git_remote
 need to take time to understand more????????????????????
 _________________________________
+******************
+test add tags
+git tag v1.0          //lightweight tag
+git tag -a v1.0 -m "my version 1.0"    //annotated tags -s replace -a :GPG sign tag
+git tag v1.0 commit_ID             //can add tags to the history committs
+git push origin --tags           //push all the tags to remote server
+git push origin v1.0   //push specific tag
+git show v1.0  //show information of tag v1.0
+git tag   //show all the tags added
+
 //
