@@ -52,4 +52,12 @@ git push origin local1-branch1:master
 git rebase -i HEAD~3
 ***************************
 test git diff and merge tool
+not try
+
+_______________________
+change in clone git
+under the folder git
+mkdir git_clone
+cd git_clone
+git clone ../git_remote
 //
