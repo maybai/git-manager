@@ -1,3 +1,17 @@
+*********************************
+init git repository:
+cd git_remote
+git init --bare   // init a remote repository, not file tree
+cd git_local1
+git init
+git remote add [name] ../git_remote  //default for name is "origin"
+git pull origin
+cd git_local3
+git init
+git remote add main_line ../git_remote
+modify and push changes to remote server
+*********************************************
+
 mkdir git_local2
 cd git_local2
 git init
