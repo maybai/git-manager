@@ -1,3 +1,4 @@
+local2:commit temp
 commit 2
 commit 1
 reset HEAD~3 success!  // not parameter means --soft
