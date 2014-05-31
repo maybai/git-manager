@@ -14,6 +14,12 @@ modify and push changes to remote server
 ------- change remote branch name from master to main_line ----
 cd git_remote
 git branch -m main_line
+cd git_local1
+modify this file
+git push origin local1_branch2:main_line
+
+
+-----------------------------------------------------------------
 
 mkdir git_local2
 cd git_local2
