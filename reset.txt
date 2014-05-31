@@ -1,2 +1,3 @@
+commit 1
 reset HEAD~3 success!  // not parameter means --soft
 init reset.txt
