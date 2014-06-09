@@ -1,2 +1,0 @@
-test fetch from gitB (bare git)
-New file, add tag
